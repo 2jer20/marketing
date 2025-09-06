@@ -1,35 +1,11 @@
-# VibeMarketer (MVP)
 
-Your AI Marketing Co-Founder.
+  # Landing Page and Dashboard Design
 
-## Setup
+  This is a code bundle for Landing Page and Dashboard Design. The original project is available at https://www.figma.com/design/df1q0UKYgd1vWaD1H4tGiC/Landing-Page-and-Dashboard-Design.
 
-1. Install dependencies:
+  ## Running the code
 
-```bash
-npm install
-```
+  Run `npm i` to install the dependencies.
 
-2. Copy env and fill values:
-
-```bash
-cp .env.example .env.local
-```
-
-3. Setup database and generate Prisma client:
-
-```bash
-npx prisma db push
-```
-
-4. Run dev server:
-
-```bash
-npm run dev
-```
-
-## Tech
-- Next.js 14 (App Router), Tailwind, TypeScript
-- NextAuth (Google), Prisma (Postgres/Neon)
-- TanStack Query, Zod, RHF
-- OpenAI (optional) 
+  Run `npm run dev` to start the development server.
+  
